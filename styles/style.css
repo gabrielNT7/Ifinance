@@ -171,8 +171,6 @@ main img{
     font-size: 14px;
     font-family: montserrat;
 }
-/* strategy fim */
-
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -180,3 +178,5 @@ main img{
     margin-top: 69px;
 
 }
+/* strategy fim */
+
