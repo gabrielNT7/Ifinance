@@ -43,4 +43,63 @@ nav ul a{
     color: var(--light-text-color);
 }
 
+/* começo main */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252B42;
+    padding: 0px 156px 0px 156px;
+    gap: 122px;
+}
+
+main img{
+    width: 471px;
+    height: 587px;
+
+}
+
+.Financial{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-family: montserrat;
+}
+
+.Financial h1{
+    width: 509px;
+    font-size: 58px; 
+    color: var(--light-text-color);
+}
+
+.Financial p{
+    width: 376px;
+    font-size: 20px;
+    color: var(--light-text-color);
+}
+
+.btn-main{
+    display: flex;
+    gap: 10px;
+}
+.btn-primary{
+    width: 187px;
+    height: 52px;
+    border-radius: 37px;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+}
+
+.btn-second{
+    width: 157px;
+    height: 52px;
+    border-radius: 37px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid var(--light-text-color);
+    color: var(--light-text-color);
+}
+
+/* fim main */
+
 

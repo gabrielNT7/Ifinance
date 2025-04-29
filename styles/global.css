@@ -2,8 +2,13 @@
     padding: 0;
     margin: 0;
     border: 0;
+
 }
 
+@font-face{
+    font-family: montserrat;
+    src: url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
 
 :root{
     --light-text-color: #FFFFFF;
