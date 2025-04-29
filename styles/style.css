@@ -102,4 +102,81 @@ main img{
 
 /* fim main */
 
+/* Strategy */
+.Strategy-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252B42;
+}
 
+.Strategy-info{
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Strategy-info h2{
+    width: 451px;
+    font-size: 40px;
+    color: var(--light-text-color);
+}
+
+.Strategy-info p{
+    width: 470px;
+    font-size: 14px;
+    color: var(--second-text-color);
+}
+
+.Strategy-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ width: 328px;
+ height: 129px;
+ border: 1px solid white;
+ border-radius: 2px;
+}
+
+.Strategy-content h2{
+    color: var(--light-text-color);
+}
+
+.Strategy-content p{
+    color: var(--light-text-color);
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.info h2{
+    width: 223px;
+    font-size: 16px;
+    font-family: montserrat;
+}
+
+.info p{
+    width: 240px;
+    font-size: 14px;
+    font-family: montserrat;
+}
+/* strategy fim */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 69px;
+
+}
