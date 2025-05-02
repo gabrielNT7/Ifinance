@@ -395,4 +395,35 @@ width: 31px;
     cursor: pointer;
     font-size: 14px;
   }
+  /* fim pricing */
+
+  /* branches */
+.branches-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: montserrat;
+    margin-top: 60px;
+}
+.branches-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.branches-info h2{
+    width: 476px;
+    font-size: 40px;
+    color: var(--light-text-color);
+}
+
+.branches-info p{
+    width: 455px;
+    font-size: 14px;
+    color: var(--light-text-color);
+}
+
+
+  /* fim branches */
 
