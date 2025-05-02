@@ -238,3 +238,51 @@ main img{
 
 
 /* fim clients */
+
+/* download */
+
+.download-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 60px;
+    font-family: montserrat;
+}
+.download-info h2{
+    width: 405px;
+    font-size: 40px;
+    color: var(--light-text-color);
+}
+
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.download-info p{
+    width: 470px;
+    font-size: 14px;
+    color: var(--light-text-color);
+}
+
+.download-cards{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    border: 1px solid var(--muted-color);
+    width: 214px;
+    height: 82px;
+    border-radius: 10px;
+    color: var(--light-text-color);
+}
+
+.cards-img{
+width: 31px;
+}
