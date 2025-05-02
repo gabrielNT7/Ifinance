@@ -264,9 +264,45 @@
             <img src="./src/assets/img/mapa.svg" alt="">
         </div>
     </section>
-
-
     <!-- fim branches -->
+
+    <section class="appointament">
+        <div class="appointament-container">
+            <form class="appointment-form" action="">
+                <div class="appointment-img">
+                    <img src="./src/assets/img/são-paulino.svg" alt="Imagem">
+                </div>
+
+                <div class="appointament-form">
+                    <h2>Book Appointment</h2>
+
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Full name">
+
+                    <label for="email">Email address *</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+
+                    <label for="department">Department *</label>
+                    <select id="department" name="department">
+                        <option value=""> please Select</option>
+                        <option value="support">Support</option>
+                        <option value="sales">Sales</option>
+                    </select>
+
+                    <label for="time">Time *</label>
+                    <select id="time" name="time">
+                        <option value="4pm">4:00 Available</option>
+                        <option value="5pm">5:00 Available</option>
+                    </select>
+
+                    <button type="submit">Book Appointment</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- fim appointament -->
 </body>
 
 </html>
