@@ -1,5 +1,8 @@
 @import url(global.css);
 
+body{
+    background-color: #252B42;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -180,3 +183,58 @@ main img{
 }
 /* strategy fim */
 
+/* clients */
+.clientes-{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.clients-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: montserrat;
+    margin-top: 69px;
+    text-align: center;
+    
+}
+
+.clients-container h2{
+    width: 361px;
+    font-size: 40px;
+    color: var(--light-text-color);
+}
+
+.clients-container p{
+    width: 470px;
+    font-size: 14px;
+    color: var(--light-text-color);
+}
+.miles-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 744px;
+    gap: 15px;
+    background-color: var(--light-text-color);
+    text-align: center;
+    margin: 0px 345px 0px 300px;
+    padding: 40px 0px 40px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+.miles-container p{
+    width: 433px;
+    font-size: 14px;
+    font-family: montserrat;
+}
+
+
+
+/* fim clients */
