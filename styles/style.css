@@ -572,3 +572,168 @@ width: 31px;
     background-color: var(--light-gray-1);
     color: var(--second-text-color);
 }
+
+/* responsividade mobile */
+@media (max-width: 480px) {
+  /* header */
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  nav ul {
+    display: none;
+  }
+  .menu-toggle{
+    display: flex;
+    gap: 5px;
+    background-color: black;
+  }
+  .btn-header {
+    display: none;
+  }
+/* fim header */
+
+/* main */
+  main {
+    flex-direction: column-reverse;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Financial h1 {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .Financial p {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .btn-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+/* fim main */
+
+/* estrategy  */
+.Strategy-info h2{
+  width: 420px;
+}
+
+.Strategy-info p{
+  width: 300px;
+}
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  /* fim estrategy */
+/* clients */
+
+.clients-container p{
+  width: 400px;
+
+}
+  .miles-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .miles-container p{
+    width: 300px;
+  }
+/* fim clients */
+
+/* download */
+
+  .download-info p{
+    width: 300px;
+  }
+  .cards-container{
+    flex-direction: column;
+  }
+  .card {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* fim download */
+
+/* pricing */
+
+.pricing-info p{
+  width: 300px;
+  
+}
+  .card-left,
+  .card-right {
+    width: 100%;
+  }
+
+  /* fim pricing */
+
+  /* branches */
+  .branches-container{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .branches-info h2{
+    width: 400px;
+  }
+
+  .branches-info p{
+    width: 400px;
+  }
+  /* fim branches */
+/* appointament */
+  .appointament-container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .appointament-form {
+    padding: 20px;
+  }
+
+  form input {
+    width: 100%;
+  }
+/* fim appointament */
+
+/* footer */
+  .footer {
+    padding: 40px 20px;
+  }
+  .social-icons{
+  justify-content: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .footer-section p {
+    width: 100%;
+    text-align: center;
+  }
+  /* fim footer */
+}
+
